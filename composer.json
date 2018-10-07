@@ -1,0 +1,27 @@
+{
+    "name": "pointybeard/uriinfo",
+    "type": "library",
+    "description": "Helper class for probing a URL with cURL and returning information about it.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alannah Kearney",
+            "email": "hi@alannahkearney.com",
+            "homepage": "http://alannahkearney.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.6"
+    },
+    "support": {
+      "issues": "https://github.com/pointybeard/uriinfo/issues",
+      "wiki": "https://github.com/pointybeard/uriinfo/wiki"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "pointybeard\\URIInfo\\": "src/"
+        }
+    }
+}
