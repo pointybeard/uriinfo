@@ -69,7 +69,7 @@ class URIInfo
      */
     public function __get($name)
     {
-        if (!iset($this->info[$name])) {
+        if (!isset($this->info[$name])) {
             return false;
         }
         return $this->info[$name];
